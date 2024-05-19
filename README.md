@@ -175,6 +175,7 @@ Best Model is ExtraTreesRegressor () with Score 0.8961726407906658
  
 
 Hyper parameters are {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}.
+
 these are the best parameters got using GridSearchCV for ExtraTreesRegressor.
 
  
