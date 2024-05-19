@@ -117,6 +117,7 @@ Model: ExtraTreesClassifier () with random_state
 Accuracy Score: 0.9328566987876904
 [[1516  129]
  [  87 1485]]
+ 
               precision    recall  f1-score   support
 
            0       0.95      0.92      0.93      1645
