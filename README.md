@@ -115,6 +115,7 @@ To predict there is Rain Tomorrow or not which is classification problem, so for
  
 Model: ExtraTreesClassifier () with random_state
 Accuracy Score: 0.9328566987876904
+
 [[1516  129]
  [  87 1485]]
  
@@ -141,9 +142,9 @@ Cross-val score for XGBClassifier :0.7911195336545258
 
 By creating dictionary of model and iterate over for loop to checked which model is best fit and which random state value is more suitable.
 so we have found ExtraTreesClassifier has 93.28% accuracy at random state 10, and Precision, recall and f1-score accuracy found 93%. and cross-val score is 84%.
-Hyper Parameter Tuning with ExtraTreesClassifier
+### Hyper Parameter Tuning with ExtraTreesClassifier
  
-### Hyper parameters are {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+Hyper parameters are {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}.
 
 These are the best parameters values got by using GridSearchCV for ExtraTreesClassifier.
 
